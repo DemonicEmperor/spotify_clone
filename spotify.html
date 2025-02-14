@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="/utilitypics/iconmonstr-spotify-1.svg">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/utility.css">
+    <script src="https://kit.fontawesome.com/af44928466.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="log"><img class="invert" src="/utilitypics/logo.svg" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="/utilitypics/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="/utilitypics/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded">
+                <div class="heading">
+                    <img class="invert" src="/utilitypics/playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <li>
+                            <img class="invert" src="/utilitypics/music.svg" alt="">
+                            <div class="info">
+                                <div class="songname"><marquee behavior="" direction="right">Song Name</marquee></div>
+                                <div class="songsource">Song Source</div>
+                            </div>
+                            <div class="playNow">
+                                <span>Play Now</span>
+                                <img class="invert" src="/utilitypics/play.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded m-1 p-1">
+            <div class="header">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000024a61230da4b1d555b4ddd3f5" alt="">
+                        <h2>Pop Right Now</h2>
+                        <p>The most interesting tracks in the current world of pop music.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000024a61230da4b1d555b4ddd3f5" alt="">
+                        <h2>Pop Right Now</h2>
+                        <p>The most interesting tracks in the current world of pop music.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000024a61230da4b1d555b4ddd3f5" alt="">
+                        <h2>Pop Right Now</h2>
+                        <p>The most interesting tracks in the current world of pop music.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000024a61230da4b1d555b4ddd3f5" alt="">
+                        <h2>Pop Right Now</h2>
+                        <p>The most interesting tracks in the current world of pop music.</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="upperbar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <i class="fa-solid fa-backward-step" id="previous"></i>
+                            <i class="fa-solid fa-circle-play" id="playButton"></i>
+                            <i class="fa-solid fa-forward-step" id="next"></i>
+                        </div>
+                        <div class="songtime">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
